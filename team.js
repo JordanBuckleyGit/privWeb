@@ -39,6 +39,14 @@ const members = [
         linkedIn: "https://www.linkedin.com/in/dan-bokete-672a72316/",
     },
     {
+        firstName: "Marlon",
+        lastName: "Ares",
+        role: "Secretary",
+        description:
+            "Marlon manages meeting minutes.",
+        linkedIn: "https://www.linkedin.com/in/marlon-jesus-ares-milian-4b2a16203/",
+    },
+    {
         firstName: "Mikolaj",
         lastName: "Wujek",
         role: "Social Media Manager",
@@ -54,48 +62,21 @@ const members = [
         linkedIn: "https://www.linkedin.com/in/michael-xuereb1337/",
     },
     {
+        firstName: "Ivan",
+        lastName: "Fonagy",
+        role: "Deputy Technical Manager",
+        description:
+            "Ivan helps with deployment and documentation of competition software.",
+        linkedIn: "https://www.linkedin.com/in/ivan-fonagy/",
+    },
+    {
         firstName: "Pawel",
         lastName: "Popkiewicz",
         role: "OCM",
         description:
             "Pawel assisted with the development/managing of the website and online infrastructure.",
         linkedIn: null,
-    },
-    {
-        firstName: "Taylor",
-        lastName: "Santos",
-        role: null,
-        description: null,
-        linkedIn: "https://www.linkedin.com/in/taylor-santos-094954296/",
-    },
-    {
-        firstName: "Leo",
-        lastName: "Berdin",
-        role: "OCM",
-        description: "Leo placed the ACM posters around UCC.",
-        linkedIn: null,
-    },
-    {
-        firstName: "Freddie",
-        lastName: null,
-        role: null,
-        description: null,
-        linkedIn: null,
-    },
-    {
-        firstName: "Abigail",
-        lastName: null,
-        role: null,
-        description: null,
-        linkedIn: null,
-    },
-    {
-        firstName: "Alison",
-        lastName: null,
-        role: null,
-        description: null,
-        linkedIn: null,
-    },
+    }
 ];
 
 const teamContainer = document.getElementById("teamContainer");
