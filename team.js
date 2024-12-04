@@ -19,7 +19,8 @@ const members = [
         firstName: "Andrea",
         lastName: "Visentin",
         role: "Academic Sponsor",
-        description: "Andrea is an Assistant Professor",
+        description: 
+            S"Andrea is an Assistant Professor",
         linkedIn: "https://www.linkedin.com/in/andrea-visentin-a4b9a585/",
     },
     {
