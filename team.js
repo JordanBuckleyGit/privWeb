@@ -20,7 +20,7 @@ const members = [
         lastName: "Visentin",
         role: "Academic Sponsor",
         description: 
-            S"Andrea is an Assistant Professor",
+            "Andrea is an Assistant Professor",
         linkedIn: "https://www.linkedin.com/in/andrea-visentin-a4b9a585/",
     },
     {
