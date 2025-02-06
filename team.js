@@ -93,7 +93,7 @@ const members = [
         description:
             "Pawel assisted with the development/managing of the website and online infrastructure.",
         linkedIn: "https://www.linkedin.com/in/pawe%C5%82-popkiewicz-b3b727251/",
-    },
+    }
 ];
 
 const teamContainer = document.getElementById("teamContainer");
