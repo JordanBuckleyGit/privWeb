@@ -7,21 +7,37 @@ const members = [
             "Nicola is the UCC ACM Chapter Chair!",
         linkedIn: "https://www.linkedin.com/in/nicola-rossberg/",
     },
+    // {
+    //     firstName: "Andrew",
+    //     lastName: "Nash",
+    //     role: "IT/Sys Admin",
+    //     description:
+    //         "Andrew oversees all technical matters in the ACM Chapter.",
+    //     linkedIn: "https://www.linkedin.com/in/a-nash/",
+    // },
     {
-        firstName: "Andrew",
-        lastName: "Nash",
-        role: "IT/Sys Admin",
-        description:
-            "Andrew oversees all technical matters in the ACM Chapter.",
-        linkedIn: "https://www.linkedin.com/in/a-nash/",
+        firstName: "David",
+        lastName: "Shanahan",
+        role: "Vice-Chairperson",
+        description: 
+            "David is Master's student and the UCC ACM Chapter Vice-Chair.",
+        linkedIn: "https://www.linkedin.com/in/david-shanahan-89731a184/",
     },
     {
         firstName: "Andrea",
         lastName: "Visentin",
         role: "Academic Sponsor",
         description: 
-            "Andrea is an Assistant Professor",
+            "Andrea is an Assistant Professor.",
         linkedIn: "https://www.linkedin.com/in/andrea-visentin-a4b9a585/",
+    },
+    {
+        firstName: "Marlon",
+        lastName: "Ares",
+        role: "Secretary",
+        description: "Marlon manages minutes of committee meetings and oversees Chapter administration.",
+        linkedIn:
+            "https://www.linkedin.com/in/marlon-jesus-ares-milian-4b2a16203/",
     },
     {
         firstName: "Jordan",
@@ -32,20 +48,20 @@ const members = [
         linkedIn: "https://www.linkedin.com/in/jordan05/",
     },
     {
+        firstName: "Michael",
+        lastName: "Xuereb",
+        role: "Finance Officer",
+        description:
+            "Michael ensures all finances are well-managed for events.",
+        linkedIn: "https://www.linkedin.com/in/michael-xuereb1337/",
+    },
+    {
         firstName: "Dan",
         lastName: "Bokete",
         role: "OCM",
         description:
             "Dan assisted with the development/managing of the website and online infrastructure.",
         linkedIn: "https://www.linkedin.com/in/dan-bokete-672a72316/",
-    },
-    {
-        firstName: "Marlon",
-        lastName: "Ares",
-        role: "Secretary",
-        description: "Marlon manages meeting minutes.",
-        linkedIn:
-            "https://www.linkedin.com/in/marlon-jesus-ares-milian-4b2a16203/",
     },
     {
         firstName: "Mikolaj",
@@ -56,14 +72,6 @@ const members = [
         linkedIn: "https://www.linkedin.com/in/mikolaj-wujek-132354333/",
     },
     {
-        firstName: "Michael",
-        lastName: "Xuereb",
-        role: "Finance Officer",
-        description:
-            "Michael ensures all finances are well-managed for events.",
-        linkedIn: "https://www.linkedin.com/in/michael-xuereb1337/",
-    },
-    {
         firstName: "Ivan",
         lastName: "Fonagy",
         role: "Deputy Technical Manager",
@@ -72,36 +80,28 @@ const members = [
         linkedIn: "https://www.linkedin.com/in/ivan-fonagy/",
     },
     {
+        firstName: "Abigail",
+        lastName: "Joseph",
+        role: "OCM",
+        description: "Abigail is an OCM who is involved in the technical team.",
+        linkedIn: "https://www.linkedin.com/in/abigail-elizabeth-joseph-a94215334/",
+    },
+    {
         firstName: "Pawel",
         lastName: "Popkiewicz",
         role: "OCM",
         description:
             "Pawel assisted with the development/managing of the website and online infrastructure.",
-        linkedIn:
-            "https://www.linkedin.com/in/pawe%C5%82-popkiewicz-b3b727251/",
+        linkedIn: "https://www.linkedin.com/in/pawe%C5%82-popkiewicz-b3b727251/",
     },
-    {
-        firstName: "David",
-        lastName: "Shanahan",
-        role: "Vice Chair",
-        description: "David is a Masters student and Vice Chair.",
-        linkedIn: null,
-    },
-    {
-        firstName: "Abigail Elizabeth",
-        lastName: "Joseph",
-        role: "OCM",
-        description: "Abigail is an OCM who is involved in the technical team",
-        linkedIn: null,
-    },
-    {
-        firstName: "George",
-        lastName: "Osemwengie",
-        role: "OCM",
-        description:
-            "George is an OCM who is involved in the organisation of the ACM event.",
-        linkedIn: null,
-    },
+    // {
+    //     firstName: "David",
+    //     lastName: "Lesiak",
+    //     role: "OCM",
+    //     description:
+    //         "David is an OCM who is involved in the organisation of the ACM event.",
+    //     linkedIn: "https://www.linkedin.com/in/david-lesiak-573830271/",
+    // },
 ];
 
 const teamContainer = document.getElementById("teamContainer");
