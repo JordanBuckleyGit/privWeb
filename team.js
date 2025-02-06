@@ -94,14 +94,6 @@ const members = [
             "Pawel assisted with the development/managing of the website and online infrastructure.",
         linkedIn: "https://www.linkedin.com/in/pawe%C5%82-popkiewicz-b3b727251/",
     },
-    // {
-    //     firstName: "David",
-    //     lastName: "Lesiak",
-    //     role: "OCM",
-    //     description:
-    //         "David is an OCM who is involved in the organisation of the ACM event.",
-    //     linkedIn: "https://www.linkedin.com/in/david-lesiak-573830271/",
-    // },
 ];
 
 const teamContainer = document.getElementById("teamContainer");
