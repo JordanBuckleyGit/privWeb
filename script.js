@@ -160,3 +160,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+function expandSponsor(selectedSponsor) {
+    const allSponsors = document.querySelectorAll('.sponsor');
+    const isExpanded = selectedSponsor.classList.contains('expanded');
+
+    allSponsors.forEach(sponsor => {
+        sponsor.classList.remove('expanded', 'dimmed');
+    });
+
+    if (!isExpanded) {
+        selectedSponsor.classList.add('expanded');
+        allSponsors.forEach(sponsor => {
+            if (sponsor !== selectedSponsor) {
+                sponsor.classList.add('dimmed');
+            }
+        });
+    }
+}
